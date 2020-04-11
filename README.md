@@ -1,19 +1,5 @@
 # Ascension
 
-To start your Phoenix server:
+Ascension is a small project which handles audiobooks. The core features of Ascension is keeping track of a list of books, and for each book a list of audio files. For each audio file the current listening progress can be stored, which means that you can listen to longer files without losing track of where you are.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+This is a backend for Ascension written in Elixir using the Phoenix web framework. It primarily consists of a JSON REST API which allows the creation of users, authentication and managing of books. I have implemented two different frontends for Ascension, one in [Vue](https://github.com/thehellbean/ascension-frontend-vue) and one using [React/Redux](https://github.com/thehellbean/ascension-frontend-react)
